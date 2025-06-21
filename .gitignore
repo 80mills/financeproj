@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+venv/
+env/
+.env
+
+# Data files
+*.csv
+*.xlsx
+*.json
+data/raw/
+data/processed/
+
+# Logs
+*.log
+logs/
+
+# Build outputs
+dist/
+build/
+*.pyc
+__pycache__/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# API keys and secrets
+.env.local
+.env.production
+secrets.json
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3 
