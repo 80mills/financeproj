@@ -68,11 +68,12 @@ financeproj/
 ## 🚦 Getting Started
 
 ### Prerequisites
-- Node.js 16+
-- Git
-- Supabase account
-- AWS account
-- Plaid account (for bank connections)
+- **macOS** (tested on macOS 12+)
+- **Node.js 18+** and npm/yarn
+- **Git** (usually pre-installed on macOS)
+- **AWS Account**
+- **Supabase Account**
+- **Plaid Account** (for bank connections)
 
 ### Quick Start
 
@@ -85,7 +86,7 @@ financeproj/
 2. **Set up Supabase**
    - Create a new Supabase project
    - Run the database migration
-   - Deploy edge functions
+   - Deploy edge functions using Supabase CLI
 
 3. **Configure Frontend**
    ```bash
@@ -101,7 +102,7 @@ financeproj/
    amplify publish
    ```
 
-See [docs/SETUP_GUIDE.md](docs/SETUP_GUIDE.md) for detailed instructions.
+See [docs/SETUP_GUIDE.md](docs/SETUP_GUIDE.md) for detailed macOS-specific instructions.
 
 ## 💡 Use Cases
 
@@ -143,7 +144,7 @@ For personal use:
 
 - [Architecture Overview](docs/ARCHITECTURE.md)
 - [Supabase & Amplify Architecture](docs/SUPABASE_AMPLIFY_ARCHITECTURE.md)
-- [Setup Guide](docs/SETUP_GUIDE.md)
+- [Setup Guide](docs/SETUP_GUIDE.md) - **macOS-specific instructions**
 - [Workflow Examples](docs/WORKFLOW_EXAMPLES.md)
 
 ## 🛠️ Development
